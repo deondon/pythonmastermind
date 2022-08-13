@@ -16,32 +16,32 @@
 #-5 Points if No Screen Shot of Report submitted before Deadline.
 #""")
 
-print("How many Trust Points do you have Today?\n")
+print("How many Trust Points do you have Today?")
 trustpoints = input("")
 int(trustpoints)
-print("You have " + trustpoints + " Trust Points")
+print("You have " + trustpoints + " Trust Points\n\n")
 
 print("What is your most important outcome for tomorrow?")
-print("Complete this prompt: I must Spend at least 25 Minutes ______________.")
+print("Complete this prompt: I must Spend at least 25 Minutes ______________.\n")
 betstatement = input("")
 print("I must Spend at least 25 Minutes " + betstatement + ".")
 #How to Present a list of choices or prompts?
 
-print("How many Points are you Betting You won't fail?\n")
+print("How many Points are you Betting You won't fail?")
 betamount = input("")
-print("I bet " + betamount + " Trust Points.")
+print("I bet " + betamount + " Trust Points.\n\n")
 
 print("Before what time will you get it done?\n")
-print("If this is during a Supervised Pomodoro \n")
-print("it must be within or very close to the end of the Pomodoro\n")
+print("If this is during a Supervised Pomodoro")
+print("it must be within or very close to the end of the Pomodoro")
 print("If it's after it must be before the end of your work day.\n")
 deadlinetime = input("")
-print("I will get it done before " + deadlinetime + ".\n")
+print("I will get it done before " + deadlinetime + ".\n\n\n")
 #How to get time and store in variable?
 
-print("Generating your bet statement... \n")
+print("Generating your Bet Statement...")
 print("Copy or Screen Shot this into your Group Chat... \n")
 
-print("You started with " + trustpoints + " Trust Points \n")
-print("You Bet " + betamount + " Trust Points \n")
-print("I must Spend at least 25 Minutes " + betstatement + " before " + deadlinetime + "\n")
+print("I started with " + trustpoints + " Trust Points")
+print("I Bet " + betamount + " Trust Points")
+print("I must Spend at least 25 Minutes " + betstatement + " before " + deadlinetime + ".\n")
