@@ -1,21 +1,18 @@
 # -*- coding: utf-8 -*-
-
 #Rebulding Typeform Bet Generator in Python
 #https://pavlok.typeform.com/c/O6DUy5rc
 
-
 print("Welcome to The Bet Generator")
-
 print("Press Go to Continue...")
 
 #How to create "Go" button?
 
-#print("""
-#Rule Updates
-#+100 For First Time Players Only.
-#-10 Points if no Bet submitted by Deadline.
-#-5 Points if No Screen Shot of Report submitted before Deadline.
-#""")
+print("""
+Rule Updates
++100 For First Time Players Only.
+-10 Points if no Bet submitted by Deadline.
+-5 Points if No Screen Shot of Report submitted before Deadline.
+""")
 
 #points = input("How many Trust Points do you have Today?\n")
 #int(points)
