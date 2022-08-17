@@ -33,8 +33,23 @@
 #-5 Points if No Screen Shot of Report submitted before Deadline.
 #""")
 
+
+def load_data()
+  f = open("../.DS_Store", 'r')
+  trustpoints=f.readline()
+  if trustpoints is None:
+    trustpoints=100
+  f.close()
+  
+def save_data()
+  f = open("../.DS_Store", 'w')
+  f.writeline(trustpoints)
+  f.close()
+  
+
+if __name__ == '__main__':
 print("How many Trust Points do you have Today?")
-trustpoints = input("")
+#trustpoints = input("")
 int(trustpoints)
 print("You have " + trustpoints + " Trust Points\n\n")
 
